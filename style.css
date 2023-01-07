@@ -34,4 +34,19 @@ a {
 
 .container-one {
     display: flex;
+    height: 300px;
+}
+
+.text {
+    min-width: 400px;
+}
+
+.button-top {
+    background-color: blue;
+    border-radius: 15px;
+}
+
+.container-one .text img {
+    width: 400px;
+    height: 100px;
 }
