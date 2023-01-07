@@ -79,3 +79,19 @@ a {
     height: 200px;
     width: 275px;
 }
+
+.container-two {
+    display: flex;
+    height: 600px;
+    min-width: 800px;
+    background-color: white;
+}
+
+.text-two div {
+    display: flex;
+}
+
+.cards img {
+    height: 200px;
+    width: 275px;
+}
