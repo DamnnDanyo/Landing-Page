@@ -34,16 +34,31 @@ a {
 
 .container-one {
     display: flex;
-    height: 300px;
+    height: 400px;
+    background-color: #1f2937;
+    
 }
 
 .text {
     min-width: 400px;
+    color: white;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 .button-top {
     background-color: blue;
-    border-radius: 15px;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    height: 33px;
+    width: 95px;
+    margin-top: 15px;
 }
 
 .container-one .text img {
