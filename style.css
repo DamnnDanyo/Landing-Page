@@ -87,11 +87,53 @@ a {
     background-color: white;
 }
 
-.text-two div {
+.text-two {
     display: flex;
+    flex: auto;
+    margin: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-two p {
+    display: flex;
+    flex-grow: 1;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    
+}
+
+
+.text-two .cards {
+    display: flex;
+    min-width: 800px;
+    
 }
 
 .cards img {
     height: 200px;
     width: 275px;
+}
+
+.cards div {
+    display: flex;
+    width: 300px;￼
+}
+
+div.card-one  {
+    flex-wrap: wrap;
+}
+
+div.card-two {
+    flex-wrap: wrap;
+}
+
+div.card-three {
+    flex-wrap: wrap;
+}
+
+div.card-four {
+    flex-wrap: wrap;
 }
