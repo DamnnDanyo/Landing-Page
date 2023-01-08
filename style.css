@@ -89,16 +89,15 @@ a {
 
 .text-two {
     display: flex;
-    flex: auto;
+    flex: 1 1 0;
     margin: 16px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 0;
 }
 
 .text-two p {
     display: flex;
-    flex-grow: 1;
-    width: 800px;
+    flex: 1 1 90px;
     justify-content: center;
     align-items: center;
     height: 30px;
@@ -110,11 +109,11 @@ a {
 
 .text-two .cards {
     display: flex;
-    flex: auto;
-    min-width: 800px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: auto;    
+    margin-bottom: auto; 
+    min-width: 0;
+    overflow: auto;
 }
 
 .cards img {
@@ -162,3 +161,36 @@ div.card-four {
     flex-wrap: wrap;
     height: 350px;
 }
+
+.container-three {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 400px;
+    min-width: 800px;
+}
+
+.text-three  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+}
+
+.text-three p {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.signture {
+    display: flex;
+    align-self: flex-end;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
