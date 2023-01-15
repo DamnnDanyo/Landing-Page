@@ -203,8 +203,8 @@ div.card-four {
 }
 
 .text-four {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
+    flex: 1;
 }
 
 .text-body {
@@ -212,10 +212,26 @@ div.card-four {
     flex-direction: column;
     justify-content: center;
     margin-right: auto;
+    padding-left: 120px;
     flex: auto;
+    color: white;
+
+}
+
+.text-body h4 {
+    margin-bottom: -12px;
 }
 
 .sign-up-bottom {
     display: flex;
-    justify-content: flex-end;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 40px;
+    width: 140px;
+    margin-right: 20%;
 }
