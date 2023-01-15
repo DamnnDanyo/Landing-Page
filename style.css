@@ -194,3 +194,28 @@ div.card-four {
     font-size: 20px;
 }
 
+
+.container-four {
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px;
+    height: 200px;
+}
+
+.text-four {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.text-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    flex: auto;
+}
+
+.sign-up-bottom {
+    display: flex;
+    justify-content: flex-end;
+}
