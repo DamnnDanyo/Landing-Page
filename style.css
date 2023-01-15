@@ -235,3 +235,12 @@ div.card-four {
     width: 140px;
     margin-right: 20%;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
