@@ -207,6 +207,7 @@ div.card-four {
     background-color: #3882f6;
     margin: 50px;
     height: 200px;
+    min-width: 800px;
 }
 
 .text-four {
@@ -252,4 +253,5 @@ div.card-four {
     color: white;
     justify-content: center;
     align-items: center;
+    min-width: 800px;
 }
